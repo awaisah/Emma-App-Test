@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/awaisah/emma-app-test/badge)](https://www.codefactor.io/repository/github/awaisah/emma-app-test)
+
 # Emma App Test
 Emma App Test done as part of the interview process for Emma App.
 
