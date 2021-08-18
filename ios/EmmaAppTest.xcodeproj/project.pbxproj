@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* EmmaAppTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EmmaAppTestTests.m */; };
+		12F575C96A7274D129D25D03 /* libPods-EmmaAppTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 495B7C2D8DF370490B94E14C /* libPods-EmmaAppTest.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3C45505C60144CCAB80B8DA0 /* libPods-EmmaAppTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 566034F371279CA852B02EE4 /* libPods-EmmaAppTest.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B4D0B99C41EE91983F528418 /* libPods-EmmaAppTest-EmmaAppTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CAF6EA576549CB5BD7F4CF /* libPods-EmmaAppTest-EmmaAppTestTests.a */; };
+		BF4A86877B84B88333CB3A88 /* libPods-EmmaAppTest-EmmaAppTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE3BAEC51A046E1789B868D /* libPods-EmmaAppTest-EmmaAppTestTests.a */; };
+		C8B861FA26CB46450009BD4D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B861F926CB46450009BD4D /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +37,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EmmaAppTest/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EmmaAppTest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EmmaAppTest/main.m; sourceTree = "<group>"; };
-		21325405DC22EE7FC0DE9213 /* Pods-EmmaAppTest-EmmaAppTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmmaAppTest-EmmaAppTestTests.debug.xcconfig"; path = "Target Support Files/Pods-EmmaAppTest-EmmaAppTestTests/Pods-EmmaAppTest-EmmaAppTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		39CAF6EA576549CB5BD7F4CF /* libPods-EmmaAppTest-EmmaAppTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmmaAppTest-EmmaAppTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		566034F371279CA852B02EE4 /* libPods-EmmaAppTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmmaAppTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8031048A52485E69812B87EB /* Pods-EmmaAppTest-EmmaAppTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmmaAppTest-EmmaAppTestTests.release.xcconfig"; path = "Target Support Files/Pods-EmmaAppTest-EmmaAppTestTests/Pods-EmmaAppTest-EmmaAppTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		495B7C2D8DF370490B94E14C /* libPods-EmmaAppTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmmaAppTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6704F3B18BE0CF95DD8D524B /* Pods-EmmaAppTest-EmmaAppTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmmaAppTest-EmmaAppTestTests.release.xcconfig"; path = "Target Support Files/Pods-EmmaAppTest-EmmaAppTestTests/Pods-EmmaAppTest-EmmaAppTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EmmaAppTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CBDA18960F74ECD9DFD675CA /* Pods-EmmaAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmmaAppTest.release.xcconfig"; path = "Target Support Files/Pods-EmmaAppTest/Pods-EmmaAppTest.release.xcconfig"; sourceTree = "<group>"; };
+		941B528423D936BDB23EFB55 /* Pods-EmmaAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmmaAppTest.debug.xcconfig"; path = "Target Support Files/Pods-EmmaAppTest/Pods-EmmaAppTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9FE3BAEC51A046E1789B868D /* libPods-EmmaAppTest-EmmaAppTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmmaAppTest-EmmaAppTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3AFA7367442B89A2EE5794 /* Pods-EmmaAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmmaAppTest.release.xcconfig"; path = "Target Support Files/Pods-EmmaAppTest/Pods-EmmaAppTest.release.xcconfig"; sourceTree = "<group>"; };
+		C8B861F626CB45B90009BD4D /* EmmaAppTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmmaAppTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		C8B861F926CB46450009BD4D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E8769AB466CBA11F2077A697 /* Pods-EmmaAppTest-EmmaAppTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmmaAppTest-EmmaAppTestTests.debug.xcconfig"; path = "Target Support Files/Pods-EmmaAppTest-EmmaAppTestTests/Pods-EmmaAppTest-EmmaAppTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FBFC80E2C1389E610CEFF060 /* Pods-EmmaAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmmaAppTest.debug.xcconfig"; path = "Target Support Files/Pods-EmmaAppTest/Pods-EmmaAppTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4D0B99C41EE91983F528418 /* libPods-EmmaAppTest-EmmaAppTestTests.a in Frameworks */,
+				BF4A86877B84B88333CB3A88 /* libPods-EmmaAppTest-EmmaAppTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C45505C60144CCAB80B8DA0 /* libPods-EmmaAppTest.a in Frameworks */,
+				12F575C96A7274D129D25D03 /* libPods-EmmaAppTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,7 @@
 		13B07FAE1A68108700A75B9A /* EmmaAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				C8B861F626CB45B90009BD4D /* EmmaAppTest-Bridging-Header.h */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -100,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				566034F371279CA852B02EE4 /* libPods-EmmaAppTest.a */,
-				39CAF6EA576549CB5BD7F4CF /* libPods-EmmaAppTest-EmmaAppTestTests.a */,
+				495B7C2D8DF370490B94E14C /* libPods-EmmaAppTest.a */,
+				9FE3BAEC51A046E1789B868D /* libPods-EmmaAppTest-EmmaAppTestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,12 +113,11 @@
 		5F00127952459A5614ADF2E6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FBFC80E2C1389E610CEFF060 /* Pods-EmmaAppTest.debug.xcconfig */,
-				CBDA18960F74ECD9DFD675CA /* Pods-EmmaAppTest.release.xcconfig */,
-				21325405DC22EE7FC0DE9213 /* Pods-EmmaAppTest-EmmaAppTestTests.debug.xcconfig */,
-				8031048A52485E69812B87EB /* Pods-EmmaAppTest-EmmaAppTestTests.release.xcconfig */,
+				941B528423D936BDB23EFB55 /* Pods-EmmaAppTest.debug.xcconfig */,
+				AE3AFA7367442B89A2EE5794 /* Pods-EmmaAppTest.release.xcconfig */,
+				E8769AB466CBA11F2077A697 /* Pods-EmmaAppTest-EmmaAppTestTests.debug.xcconfig */,
+				6704F3B18BE0CF95DD8D524B /* Pods-EmmaAppTest-EmmaAppTestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,6 +131,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				C8B861F926CB46450009BD4D /* File.swift */,
 				13B07FAE1A68108700A75B9A /* EmmaAppTest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* EmmaAppTestTests */,
@@ -156,12 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EmmaAppTestTests" */;
 			buildPhases = (
-				A3C37ACC2B088884DA52838E /* [CP] Check Pods Manifest.lock */,
+				6786DB5B4E7BDD52B26005FC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				F8A5D452E2D5AB08901F9DCD /* [CP] Embed Pods Frameworks */,
-				C189534B3F92A27E36282E93 /* [CP] Copy Pods Resources */,
+				705FA5C27FE0B81EAFE7E9BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +180,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EmmaAppTest" */;
 			buildPhases = (
-				039F8151956BFCF1AE9F48F2 /* [CP] Check Pods Manifest.lock */,
+				809FEF9564E290B7E45CCE3E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				C4796C628BEB1E47E739ED19 /* [CP] Embed Pods Frameworks */,
-				D5C7D098D35D086D93A1A5E3 /* [CP] Copy Pods Resources */,
+				B013CC1999B5EA36B57E096C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,7 +210,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -265,29 +267,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		039F8151956BFCF1AE9F48F2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EmmaAppTest-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A3C37ACC2B088884DA52838E /* [CP] Check Pods Manifest.lock */ = {
+		6786DB5B4E7BDD52B26005FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,7 +289,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C189534B3F92A27E36282E93 /* [CP] Copy Pods Resources */ = {
+		705FA5C27FE0B81EAFE7E9BB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,24 +306,29 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmmaAppTest-EmmaAppTestTests/Pods-EmmaAppTest-EmmaAppTestTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C4796C628BEB1E47E739ED19 /* [CP] Embed Pods Frameworks */ = {
+		809FEF9564E290B7E45CCE3E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EmmaAppTest/Pods-EmmaAppTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EmmaAppTest/Pods-EmmaAppTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmmaAppTest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmmaAppTest/Pods-EmmaAppTest-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D5C7D098D35D086D93A1A5E3 /* [CP] Copy Pods Resources */ = {
+		B013CC1999B5EA36B57E096C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,23 +343,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmmaAppTest/Pods-EmmaAppTest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8A5D452E2D5AB08901F9DCD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EmmaAppTest-EmmaAppTestTests/Pods-EmmaAppTest-EmmaAppTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EmmaAppTest-EmmaAppTestTests/Pods-EmmaAppTest-EmmaAppTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmmaAppTest-EmmaAppTestTests/Pods-EmmaAppTest-EmmaAppTestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -412,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				C8B861FA26CB46450009BD4D /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,8 +398,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21325405DC22EE7FC0DE9213 /* Pods-EmmaAppTest-EmmaAppTestTests.debug.xcconfig */;
+			baseConfigurationReference = E8769AB466CBA11F2077A697 /* Pods-EmmaAppTest-EmmaAppTestTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -456,8 +426,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8031048A52485E69812B87EB /* Pods-EmmaAppTest-EmmaAppTestTests.release.xcconfig */;
+			baseConfigurationReference = 6704F3B18BE0CF95DD8D524B /* Pods-EmmaAppTest-EmmaAppTestTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = EmmaAppTestTests/Info.plist;
@@ -480,13 +451,21 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBFC80E2C1389E610CEFF060 /* Pods-EmmaAppTest.debug.xcconfig */;
+			baseConfigurationReference = 941B528423D936BDB23EFB55 /* Pods-EmmaAppTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y9Y79XP54;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/OpenSSL-Universal/Frameworks\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL\"",
+				);
 				INFOPLIST_FILE = EmmaAppTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,8 +475,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.awaishussain.EmmaAppTest;
 				PRODUCT_NAME = EmmaAppTest;
+				SWIFT_OBJC_BRIDGING_HEADER = "EmmaAppTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +486,20 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBDA18960F74ECD9DFD675CA /* Pods-EmmaAppTest.release.xcconfig */;
+			baseConfigurationReference = AE3AFA7367442B89A2EE5794 /* Pods-EmmaAppTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Y9Y79XP54;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/OpenSSL-Universal/Frameworks\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL\"",
+				);
 				INFOPLIST_FILE = EmmaAppTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,8 +509,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.awaishussain.EmmaAppTest;
 				PRODUCT_NAME = EmmaAppTest;
+				SWIFT_OBJC_BRIDGING_HEADER = "EmmaAppTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

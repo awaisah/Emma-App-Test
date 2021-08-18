@@ -5,6 +5,9 @@
       location = "group:EmmaAppTest.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:EmmaAppTest-Bridging-Header.h">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
