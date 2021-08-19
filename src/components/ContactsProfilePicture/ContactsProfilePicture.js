@@ -4,23 +4,20 @@ import {
     Text
 } from 'react-native';
 import { getContacts } from 'utils/contacts/Contacts'
-import { ContactsProfileCarousel, ContactsDetailsList } from 'components'
 
-const ContactListScene = () => {
+const ContactsProfilePicture = () => {
     const [contacts, setContacts] = useState([])
 
     useEffect(async () => {
         const _contacts = await getContacts()
         setContacts(_contacts)
     })
-
+    
     return (
         <View>
-            <Text>Contacts List Scene: {contacts.length}</Text>
-            <ContactsProfileCarousel />
-            <ContactsDetailsList />
+            <Text>Picture</Text>
         </View>
     )
 }
 
-export default ContactListScene
+export default ContactsProfilePicture
