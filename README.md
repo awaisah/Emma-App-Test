@@ -29,3 +29,9 @@ This is a simple single screen application which loads a local .json file contai
 ## Assumptions
 
 * The details scrollview is not scrollable. It would be nice to have this scrollable and also select the current contact's profile picture as further improvements
+
+## Limitations
+
+* Scrolling through the profile pictures decelerates almost immediately
+* Not been able to test on Android
+* No testing included initially
