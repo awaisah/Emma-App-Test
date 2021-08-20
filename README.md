@@ -4,8 +4,8 @@
 Emma App Test done as part of the interview process for Emma App.
 
 ## Installation via command line
-### Step 1 - Pull Git Repo
-```git pull https://github.com/awaisah/Emma-App-Test.git```
+### Step 1 - Clone Git Repo
+```git clone https://github.com/awaisah/Emma-App-Test.git```
 ### Step 2 - Enter Project Directory
 ```cd Emma-App-Test```
 ### Step 3 - Install Node Packages
