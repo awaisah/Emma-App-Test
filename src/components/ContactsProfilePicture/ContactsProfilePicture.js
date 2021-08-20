@@ -1,23 +1,45 @@
 import React, {useEffect, useState} from 'react';
 import {
     View,
-    Text
+    Text,
+    StyleSheet,
+    Image
 } from 'react-native';
-import { getContacts } from 'utils/contacts/Contacts'
 
-const ContactsProfilePicture = () => {
-    const [contacts, setContacts] = useState([])
+import { Buttons } from 'styles'
 
-    useEffect(async () => {
-        const _contacts = await getContacts()
-        setContacts(_contacts)
-    })
-    
+import { getImage } from 'utils/contacts/Contacts'
+import { Colors } from 'styles';
+
+const ContactsProfilePicture = ({contact, current}) => {    
     return (
-        <View>
-            <Text>Picture</Text>
-        </View>
+        <>
+            {
+                current ?
+                <Image source={getImage(contact)} style={styles.imageSelected} /> :
+                <Image source={getImage(contact)} style={styles.image} />
+            }
+            
+        </>
     )
 }
 
 export default ContactsProfilePicture
+
+const styles = StyleSheet.create({
+    image: {
+        height: Buttons.profilePictureWidth,
+        width: Buttons.profilePictureWidth,
+        marginVertical: Buttons.profilePictureMarginVertical,
+        marginHorizontal: Buttons.profilePictureMarginHorizonal
+    },
+    imageSelected: {
+        height: Buttons.profilePictureWidth,
+        width: Buttons.profilePictureWidth,
+        marginVertical: Buttons.profilePictureMarginVertical,
+        marginHorizontal: Buttons.profilePictureMarginHorizonal,
+        borderColor: Colors.selectedColor,
+        borderWidth: 5,
+        borderRadius: 40
+    }
+})
