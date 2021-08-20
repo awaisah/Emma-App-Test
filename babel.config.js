@@ -11,7 +11,6 @@ module.exports = {
                     "assets": "./src/assets",
                     "avatars": "./src/assets/avatars",
                     "components": "./src/components",
-                    "navigations": "./src/navigations",
                     "utils": "./src/utils",
                     "styles": "./src/styles",
                     "scenes": "./src/scenes"

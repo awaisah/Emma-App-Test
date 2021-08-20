@@ -31,7 +31,7 @@ const ContactsProfileCarousel = ({contacts, scrollTo}) => {
                         scrollTo(index)
                     }}
                 >
-                    <ContactsProfilePicture contact={contact} current={current === index} />
+                    <ContactsProfilePicture key={contact.name} contact={contact} current={current === index} />
                 </TouchableOpacity>
             )
         })

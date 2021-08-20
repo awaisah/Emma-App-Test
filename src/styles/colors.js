@@ -1,0 +1,1 @@
+export const selectedColor = "#A7C7E7"
